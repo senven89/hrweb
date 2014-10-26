@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.icss.hr.admin.servlet.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmpViewServlet</servlet-name>
+    <servlet-class>com.icss.hr.emp.servlet.EmpViewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmpToAddServlet</servlet-name>
+    <servlet-class>com.icss.hr.emp.servlet.EmpToAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmpAddServlet</servlet-name>
+    <servlet-class>com.icss.hr.emp.servlet.EmpAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmpToUpdateServlet</servlet-name>
+    <servlet-class>com.icss.hr.emp.servlet.EmpToUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmpUpdateServlet</servlet-name>
+    <servlet-class>com.icss.hr.emp.servlet.EmpUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>EmpDeleteServlet</servlet-name>
+    <servlet-class>com.icss.hr.emp.servlet.EmpDeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptToAddServlt</servlet-name>
+    <servlet-class>com.icss.hr.dept.servlet.DeptToAddServlt</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptViewServlet</servlet-name>
+    <servlet-class>com.icss.hr.dept.servlet.DeptViewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptAddServlet</servlet-name>
+    <servlet-class>com.icss.hr.dept.servlet.DeptAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptToUpdateServlet</servlet-name>
+    <servlet-class>com.icss.hr.dept.servlet.DeptToUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptDelServlt</servlet-name>
+    <servlet-class>com.icss.hr.dept.servlet.DeptDelServlt</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptUpdateServlet</servlet-name>
+    <servlet-class>com.icss.hr.dept.servlet.DeptUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JobViewServlet</servlet-name>
+    <servlet-class>com.icss.hr.job.servlet.JobViewServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JobToAddServlet</servlet-name>
+    <servlet-class>com.icss.hr.job.servlet.JobToAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JobToUpdateServlet</servlet-name>
+    <servlet-class>com.icss.hr.job.servlet.JobToUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JobUpdateServlet</servlet-name>
+    <servlet-class>com.icss.hr.job.servlet.JobUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>JobDelServlet</servlet-name>
+    <servlet-class>com.icss.hr.emp.servlet.JobDelServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/adminservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmpViewServlet</servlet-name>
+    <url-pattern>/emp/empviewservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmpToAddServlet</servlet-name>
+    <url-pattern>/emp/emptoaddservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmpAddServlet</servlet-name>
+    <url-pattern>/emp/empaddservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmpToUpdateServlet</servlet-name>
+    <url-pattern>/emp/emptoupdateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmpUpdateServlet</servlet-name>
+    <url-pattern>/emp/empupdateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EmpDeleteServlet</servlet-name>
+    <url-pattern>/emp/empdeleteservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptToAddServlt</servlet-name>
+    <url-pattern>/dept/depttoaddservlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptViewServlet</servlet-name>
+    <url-pattern>/dept/deptviewservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptAddServlet</servlet-name>
+    <url-pattern>/dept/deptaddservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptToUpdateServlet</servlet-name>
+    <url-pattern>/dept/deptotupdateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptDelServlt</servlet-name>
+    <url-pattern>/dept/deptdelservlt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptUpdateServlet</servlet-name>
+    <url-pattern>/dept/deptupdateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JobViewServlet</servlet-name>
+    <url-pattern>/job/jobviewservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JobToAddServlet</servlet-name>
+    <url-pattern>/job/jobtoaddservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JobToUpdateServlet</servlet-name>
+    <url-pattern>/job/jobtoupdateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JobUpdateServlet</servlet-name>
+    <url-pattern>/job/jobupdateservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>JobDelServlet</servlet-name>
+    <url-pattern>/job/jobdelservlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
+

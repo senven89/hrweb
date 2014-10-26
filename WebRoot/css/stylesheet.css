@@ -1,0 +1,79 @@
+/*id选择器，#div：样式的名字*/
+body{
+	margin:0px; 
+	padding:0px; 
+	font-size:12px;
+	font-family:"宋体";
+}
+h5{
+	color:#009966;
+}
+p{
+	text-align:center;
+	font-size:16px;
+}
+input,select{
+	font-size:12px;
+	font-family:"宋体";
+}
+A:link{
+	font-size: 14px;
+	color:#000000;
+	text-decoration: none;
+}
+
+A:hover{
+	font-size: 14px;
+	color:#3300CC;
+	text-decoration: underline;
+}
+
+A:active{
+	font-size: 14px;
+	color:#FF0000;
+	text-decoration: none;
+
+}
+
+A:visited{
+	font-size: 14px;
+	color:#CC0033;
+	text-decoration: none;
+} 
+#bd{
+	margin-top:20px;
+	padding:0px; 
+	font-size:12px;
+	font-family:"宋体";
+}
+.pt{
+	text-align:right;
+	font-size:14px;
+}
+#body1{
+	background-image:url(../img/topbg.bmp);
+}
+#div1{
+	width:100%; 
+	height:70%;
+}
+#div2{
+	width:100%; 
+	height:30%; 
+	text-align:right;
+}
+.datatable{
+	background-color:#cccccc;
+}
+.tabletitle{
+	background-color:#66CCFF; 
+	font-weight:bold;
+	text-align:center;
+}
+.tableinfo{
+	background-color:#FFFFFF;
+}
+.tablelable{
+	background-color:#FFFFFF; 
+	text-align:center;
+}
